@@ -35,7 +35,8 @@ public class AnimalNoise {
 		Flamingo Ricco = new Flamingo();
 		System.out.println(Ricco.speak());
 		
-
+		Owl mrOwl = new Owl();
+		System.out.println(mrOwl.speak());
 	}
 }
 
