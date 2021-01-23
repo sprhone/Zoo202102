@@ -1,5 +1,10 @@
 package model;
 
+
+/**
+ * @author James Meendering
+ *
+ */
 public class Owl {
 	private String classificationType;
 	private double weight;
