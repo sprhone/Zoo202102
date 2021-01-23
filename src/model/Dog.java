@@ -1,3 +1,5 @@
+package model;
+
 public class Dog {
 	private String DogName;
 	private String type;

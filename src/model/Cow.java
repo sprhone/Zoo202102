@@ -1,3 +1,4 @@
+package model;
 public class Cow {
     private String name;
     private String breed;
