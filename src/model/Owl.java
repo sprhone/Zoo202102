@@ -22,15 +22,8 @@ public class Owl {
 		this.height = height;
 	}
 
-	public String getName() {
-		return name;
-	}
 
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public String getWeight() {
+	public double getWeight() {
 		return weight;
 	}
 
