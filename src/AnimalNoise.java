@@ -47,8 +47,9 @@ public class AnimalNoise {
 		Rhino spike = new Rhino();
 		System.out.println(spike.speak());
     
-    Horse horse = new Horse();
+		Horse horse = new Horse();
 		System.out.println(horse.speak());
+		
 	}
 }
 
