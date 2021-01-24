@@ -8,6 +8,7 @@ import model.Mongoose;
 import model.Flamingo;
 import model.Owl;
 import model.Chinchilla;
+import model.Horse;
 
 public class AnimalNoise {
 
@@ -45,6 +46,10 @@ public class AnimalNoise {
 		
 		Rhino spike = new Rhino();
 		System.out.println(spike.speak());
+    
+    Horse horse = new Horse();
+		System.out.println(horse.speak());
 	}
 }
+
 
