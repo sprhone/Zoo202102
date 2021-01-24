@@ -2,6 +2,7 @@ import model.Cat;
 import model.Cow;
 import model.Dog;
 import model.Pig;
+import model.Rhino;
 import model.Duck;
 import model.Mongoose;
 import model.Flamingo;
@@ -41,6 +42,9 @@ public class AnimalNoise {
 
 		Chinchilla bobby = new Chinchilla();
 		System.out.println(bobby.speak());
+		
+		Rhino spike = new Rhino();
+		System.out.println(spike.speak());
 	}
 }
 
