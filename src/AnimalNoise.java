@@ -6,6 +6,7 @@ import model.Duck;
 import model.Mongoose;
 import model.Flamingo;
 import model.Owl;
+import model.Chinchilla;
 
 public class AnimalNoise {
 
@@ -37,6 +38,9 @@ public class AnimalNoise {
 		
 		Owl mrOwl = new Owl();
 		System.out.println(mrOwl.speak());
+
+		Chinchilla bobby = new Chinchilla();
+		System.out.println(bobby.speak());
 	}
 }
 
