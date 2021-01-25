@@ -2,8 +2,13 @@ import model.Cat;
 import model.Cow;
 import model.Dog;
 import model.Pig;
+import model.Rhino;
 import model.Duck;
 import model.Mongoose;
+import model.Flamingo;
+import model.Owl;
+import model.Chinchilla;
+import model.Horse;
 
 public class AnimalNoise {
 
@@ -29,6 +34,23 @@ public class AnimalNoise {
 		
 		Mongoose rikkitikkitavi = new Mongoose();
 		System.out.println(rikkitikkitavi.speak());
+		
+		Flamingo Ricco = new Flamingo();
+		System.out.println(Ricco.speak());
+		
+		Owl mrOwl = new Owl();
+		System.out.println(mrOwl.speak());
+
+		Chinchilla bobby = new Chinchilla();
+		System.out.println(bobby.speak());
+		
+		Rhino spike = new Rhino();
+		System.out.println(spike.speak());
+    
+		Horse horse = new Horse();
+		System.out.println(horse.speak());
+		
 	}
 }
+
 
