@@ -5,6 +5,7 @@ import model.Pig;
 import model.Rhino;
 import model.Duck;
 import model.Mongoose;
+import model.Frog;
 import model.Flamingo;
 import model.Owl;
 import model.Chinchilla;
@@ -36,6 +37,9 @@ public class AnimalNoise {
 		Mongoose rikkitikkitavi = new Mongoose();
 		System.out.println(rikkitikkitavi.speak());
 		
+		Frog Froggo = new Frog();
+		System.out.println(Froggo.speak());
+    
 		Flamingo Ricco = new Flamingo();
 		System.out.println(Ricco.speak());
 		
@@ -54,6 +58,7 @@ public class AnimalNoise {
 		Lion lion = new Lion(); 
 		System.out.println(lion.speak());
 		
+
 	}
 }
 
