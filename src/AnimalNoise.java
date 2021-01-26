@@ -12,6 +12,7 @@ import model.Owl;
 import model.Chinchilla;
 import model.Horse;
 import model.Lion;
+import model.Pangolin;
 
 public class AnimalNoise {
 
@@ -63,7 +64,8 @@ public class AnimalNoise {
 		Lion lion = new Lion(); 
 		System.out.println(lion.speak());
 		
-
+		Pangolin pango = new Pangolin();
+		System.out.println(pango.makeNoise());
 	}
 }
 
