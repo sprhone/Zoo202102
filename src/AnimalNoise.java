@@ -1,5 +1,6 @@
 import model.Cat;
 import model.Cow;
+import model.Crow;
 import model.Dog;
 import model.Pig;
 import model.Rhino;
@@ -50,6 +51,8 @@ public class AnimalNoise {
 		Horse horse = new Horse();
 		System.out.println(horse.speak());
 		
+		Crow crow = new Crow();
+		System.out.println(crow.speak());
 	}
 }
 
