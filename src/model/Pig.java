@@ -1,5 +1,3 @@
-//Changes made by Jaden Schuster
-
 package model;
 
 //added by Erica Manning
@@ -50,22 +48,9 @@ public class Pig {
 		return "Pig [name=" + name + ", color=" + color + ", age=" + age + "]";
 	}
 
-	/**
-	 * Returns string of pig's voice.
-	 * @return "Oink!"
-	 */
 	public String speak() {
 		// TODO Auto-generated method stub
 		return "Oink!";
-	}
-	
-	/**
-	 * Returns string of pig's noise.
-	 * @return "Thud!"
-	 */
-	public String makeNoise()
-	{
-		return "Thud!";
 	}
 
 }

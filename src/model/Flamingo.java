@@ -1,5 +1,3 @@
-//Changes made by Jaden Schuster
-
 package model;
 /**
  * Flamingo
@@ -51,21 +49,11 @@ public class Flamingo {
 		return "Flamingo [name=" + name + ", gender=" + gender + ", height=" + height + "]";
 	}
 	
-	/**
-	 * Returns string of flamingo's voice.
-	 * @return "Squak, Squak!"
-	 */
 	public String speak() {
 		return "Squak, Squak!";
 	}
 	
-	/**
-	 * Returns string of flamingo's noise.
-	 * @return "Flap flap."
-	 */
-	public String makeNoise() {
-		return "Flap flap.";
-	}
-
+	
+	
 
 }

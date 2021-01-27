@@ -1,5 +1,3 @@
-//Changes made by Jaden Schuster
-
 package model;
 
 
@@ -46,20 +44,8 @@ public class Owl {
 		return "Owl [name=" + classificationType + ", weight=" + weight + ", height=" + height + "]";
 	}
 
-	/**
-	 * Returns string of owl's voice.
-	 * @return "A one.. A two-HOO... A tha-three... <crunch>"
-	 */
 	public String speak() {
 		// TODO Auto-generated method stub
 		return "A one.. A two-HOO... A tha-three... <crunch>";
-	}
-	
-	/**
-	 * Returns string of owl's noise.
-	 * @return "Flap flap."
-	 */
-	public String makeNoise() {
-		return "Flap flap.";
 	}
 }

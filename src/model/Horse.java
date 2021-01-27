@@ -1,5 +1,3 @@
-//Changes made by Jaden Schuster
-
 package model;
 
 public class Horse {
@@ -22,20 +20,8 @@ public class Horse {
 		this.color = color;
 	}
 	
-	/**
-	 * Returns string of horse's voice.
-	 * @return "neigh"
-	 */
 	public String speak() {
 		return "neigh";
-	}
-	
-	/**
-	 * Returns string of horse's noise.
-	 * @return "Clop clop."
-	 */
-	public String makeNoise() {
-		return "Clop clop.";
 	}
 
 	public String getBreed() {

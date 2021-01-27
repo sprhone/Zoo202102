@@ -1,5 +1,3 @@
-//Changes made by Jaden Schuster
-
 package model;
 /**
  * @author Isaiah Wertz
@@ -51,19 +49,7 @@ public class Crow {
 		return "Crow [name=" + name + ", weight=" + weight + ", age=" + age + "]";
 	}
 
-	/**
-	 * Returns string of crow's voice.
-	 * @return "Caw"
-	 */
 	public String speak() {
 		return "Caw";
-	}
-	
-	/**
-	 * Returns string of crow's noise.
-	 * @return "Flap flap."
-	 */
-	public String makeNoise() {
-		return "Flap flap.";
 	}
 }

@@ -1,5 +1,3 @@
-//Changes made by Jaden Schuster
-
 package model;
 
 public class Cow {
@@ -15,21 +13,9 @@ public class Cow {
         this.age = age;
     }
 
-    /**
-	 * Returns string of cow's voice.
-	 * @return "Moo"
-	 */
     public String speak(){
         return "Moo";
     }
-    
-    /**
-	 * Returns string of cow's noise.
-	 * @return "Clomp clomp."
-	 */
-	public String makeNoise() {
-		return "Clomp clomp.";
-	}
 
     public String getName() {
         return name;

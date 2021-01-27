@@ -1,5 +1,3 @@
-//Changes made by Jaden Schuster
-
 package model;
 
 /**
@@ -95,19 +93,11 @@ public class Mongoose {
 	}
 	
 	/**
-	 * Returns string of mongoose's voice.
-	 * @return "Roar"
+	 * speak method that returns animal sound.
+	 * @return: Returns a string.
 	 */
 	public String speak() {
 		// Return statement.
 		return "Bark!";
-	}
-	
-	/**
-	 * Returns string of mongoose's noise.
-	 * @return "Pit pat."
-	 */
-	public String makeNoise() {
-		return "Pit pat.";
 	}
 }

@@ -1,5 +1,3 @@
-//Changes made by Jaden Schuster
-
 package model;
 
 // Author Nick Ambroson
@@ -49,21 +47,8 @@ public class Rhino {
 		return "Rhino [name=" + name + ", weight=" + weight + ", age=" + age + "]";
 	}
 
-	/**
-	 * Returns string of rhino's voice.
-	 * @return "Grunt"
-	 */
 	public String speak() {
 		return "Grunt";
-	}
-	
-	/**
-	 * Returns string of rhino's noise.
-	 * @return "Thud!"
-	 */
-	public String makeNoise()
-	{
-		return "Thud!";
 	}
 
 }
