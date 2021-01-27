@@ -1,3 +1,5 @@
+//Changes made by Jaden Schuster
+
 package model;
 
 public class Frog {
@@ -39,7 +41,19 @@ public class Frog {
 		this.length = length;
 	}
 	
+	/**
+	 * Returns string of frog's voice.
+	 * @return "RIBBIT"
+	 */
 	public String speak() {
 		return "RIBBIT";
+	}
+	
+	/**
+	 * Returns string of frog's noise.
+	 * @return "Plunk."
+	 */
+	public String makeNoise() {
+		return "Plunk.";
 	}
 }

@@ -1,3 +1,5 @@
+//Changes made by Jaden Schuster
+
 package model;
 
 // Author - Corry Burton - Chincilla Class based off the Cat class
@@ -47,8 +49,20 @@ public class Chinchilla {
 		return "Chinchilla [name=" + name + ", color=" + color + ", age=" + age + "]";
 	}
 
+	/**
+	 * Returns string of chinchilla's voice.
+	 * @return "Squeak!"
+	 */
 	public String speak() {
 		return "Squeak!";
+	}
+	
+	/**
+	 * Returns string of chinchilla's noise.
+	 * @return "Patter patter."
+	 */
+	public String makeNoise() {
+		return "Patter patter.";
 	}
 
 }

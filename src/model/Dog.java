@@ -1,3 +1,5 @@
+//Changes made by Jaden Schuster
+
 package model;
 
 public class Dog {
@@ -34,9 +36,20 @@ public class Dog {
 	public String toString() {
 		return "Dog: name=" + DogName + ", color=" + type + ", age=" + Age + "";
 	}
+	/**
+	 * Returns string of dog's voice.
+	 * @return "Woof"
+	 */
 	public String speak() {
 		// TODO Auto-generated method stub
 		return "Woof";
+	}
+	/**
+	 * Returns string of dog's noise.
+	 * @return "Grr!"
+	 */
+	public String makeNoise() {
+		return "Grr!";
 	}
 	
 }

@@ -1,3 +1,5 @@
+//Changes made by Jaden Schuster
+
 package model;
 
 public class Lion {
@@ -29,8 +31,19 @@ public class Lion {
 	public void setWeight(int weight) {
 		this.weight = weight;
 	}
+	/**
+	 * Returns string of lion's voice.
+	 * @return "Roar"
+	 */
 	public String speak() {
 		return "Roar"; 
+	}
+	/**
+	 * Returns string of lion's noise.
+	 * @return "Tip toe."
+	 */
+	public String makeNoise() {
+		return "Tip toe.";
 	}
 	@Override
 	public String toString() {

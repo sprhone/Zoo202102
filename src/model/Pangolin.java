@@ -1,3 +1,5 @@
+//Changes made by Jaden Schuster
+
 package model;
 //Logan Riedell
 public class Pangolin {
@@ -53,7 +55,18 @@ public class Pangolin {
 		return "Pangolin [color=" + color + ", size=" + size + ", weight=" + weight + "]";
 	}
 	
-	//Sound method
+	/**
+	 * Returns string of pangolin's voice.
+	 * @return "Squeak."
+	 */
+	public String speak() {
+		return "Squeak.";
+	}
+	
+	/**
+	 * Returns string of Pangolin's noise.
+	 * @return "Snort..."
+	 */
 	public String makeNoise()
 	{
 		String noise = "Snort...";

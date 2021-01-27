@@ -1,3 +1,5 @@
+//Changes made by Jaden Schuster
+
 package model;
 
 //added by Kelli
@@ -48,9 +50,21 @@ public class Cat {
 		return "Cat [name=" + name + ", color=" + color + ", age=" + age + "]";
 	}
 
+	/**
+	 * Returns string of cat's voice.
+	 * @return "Meow!"
+	 */
 	public String speak() {
 		// TODO Auto-generated method stub
 		return "Meow!";
+	}
+	
+	/**
+	 * Returns string of cat's noise.
+	 * @return "Pit pat."
+	 */
+	public String makeNoise() {
+		return "Pit pat.";
 	}
 
 }

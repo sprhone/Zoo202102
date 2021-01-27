@@ -1,3 +1,5 @@
+//Changes made by Jaden Schuster
+
 package model;
 
 //added by Daniel DeLima
@@ -53,7 +55,19 @@ public class Duck {
                 '}';
     }
 
+    /**
+	 * Returns string of duck's voice.
+	 * @return "Quack!"
+	 */
     public String speak(){
         return "Quack!";
     }
+    
+    /**
+	 * Returns string of duck's noise.
+	 * @return "Splash."
+	 */
+	public String makeNoise() {
+		return "Splash.";
+	}
 }
