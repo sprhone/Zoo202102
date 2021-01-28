@@ -4,6 +4,7 @@ import model.Crow;
 import model.Dog;
 import model.Pig;
 import model.Rhino;
+import model.Whale;
 import model.Duck;
 import model.Mongoose;
 import model.Frog;
@@ -70,9 +71,13 @@ public class AnimalNoise {
     
 		Axolotl Axo = new Axolotl();
 		System.out.println(Axo.speak());
-		
-    		Monkey george = new Monkey();
+
+    Monkey george = new Monkey();
 		System.out.println(george.speak());
+
+		Whale whale = new Whale();
+		System.out.println(whale.speak());
+
 		
 	}
 }
