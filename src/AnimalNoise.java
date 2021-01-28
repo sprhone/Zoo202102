@@ -17,6 +17,7 @@ import model.Pangolin;
 import model.Axolotl;
 import model.Monkey;
 import model.Platypus;
+import model.Hamster;
 
 public class AnimalNoise {
 
@@ -81,6 +82,10 @@ public class AnimalNoise {
 
 		Platypus perry = new Platypus();
 		System.out.println(perry.speak());
+		
+		Hamster harry = new Hamster();
+		System.out.println(harry.makeNoise());
+		
 		
 	}
 }
