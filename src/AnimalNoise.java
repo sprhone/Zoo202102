@@ -5,10 +5,12 @@ import model.Dog;
 import model.Pig;
 import model.Rhino;
 import model.Whale;
+import model.Wolf;
 import model.Duck;
 import model.Mongoose;
 import model.Frog;
 import model.Flamingo;
+import model.Fox;
 import model.Owl;
 import model.Chinchilla;
 import model.Horse;
@@ -20,6 +22,7 @@ import model.Monkey;
 import model.Platypus;
 import model.Hamster;
 import model.Turkey;
+import model.Vulture;
 
 public class AnimalNoise {
 
@@ -93,6 +96,16 @@ public class AnimalNoise {
 		
 		Meerkat timon = new Meerkat();
 		System.out.println(timon.speak());
+		
+		Fox todd = new Fox();
+		System.out.println(todd.speak());
+		
+		Wolf scruffy = new Wolf();
+		System.out.println(scruffy.speak());
+		
+		Vulture spot = new Vulture();
+		System.out.println(spot.speak());
+		
 	}
 }
 
