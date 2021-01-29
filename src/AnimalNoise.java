@@ -14,11 +14,13 @@ import model.Owl;
 import model.Chinchilla;
 import model.Horse;
 import model.Lion;
+import model.Meerkat;
 import model.Pangolin;
 import model.Axolotl;
 import model.Monkey;
 import model.Platypus;
 import model.Hamster;
+import model.Turkey;
 
 public class AnimalNoise {
 
@@ -90,7 +92,11 @@ public class AnimalNoise {
 		Ferret tyler = new Ferret();
 		System.out.println(tyler.makeNoise());
 		
+		Turkey tom = new Turkey();
+		System.out.println(tom.speak());
 		
+		Meerkat timon = new Meerkat();
+		System.out.println(timon.speak());
 	}
 }
 
