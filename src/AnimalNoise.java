@@ -13,6 +13,7 @@ import model.Flamingo;
 import model.Owl;
 import model.Chinchilla;
 import model.Horse;
+import model.Koala;
 import model.Lion;
 import model.Meerkat;
 import model.Pangolin;
@@ -97,6 +98,9 @@ public class AnimalNoise {
 		
 		Meerkat timon = new Meerkat();
 		System.out.println(timon.speak());
+		
+		Koala Cletus = new Koala();
+		System.out.println(Cletus.speak());
 	}
 }
 
