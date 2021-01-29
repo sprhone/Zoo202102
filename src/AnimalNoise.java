@@ -6,6 +6,7 @@ import model.Pig;
 import model.Rhino;
 import model.Whale;
 import model.Duck;
+import model.Ferret;
 import model.Mongoose;
 import model.Frog;
 import model.Flamingo;
@@ -85,6 +86,9 @@ public class AnimalNoise {
 		
 		Hamster harry = new Hamster();
 		System.out.println(harry.makeNoise());
+		
+		Ferret tyler = new Ferret();
+		System.out.println(tyler.makeNoise());
 		
 		
 	}
