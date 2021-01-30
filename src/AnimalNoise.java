@@ -22,6 +22,7 @@ import model.Monkey;
 import model.Platypus;
 import model.Hamster;
 import model.Turkey;
+import model.Sheep;
 
 public class AnimalNoise {
 
@@ -101,6 +102,9 @@ public class AnimalNoise {
 		
 		Koala Cletus = new Koala();
 		System.out.println(Cletus.speak());
+		
+		Sheep shawn = new Sheep();
+		System.out.println(shawn.speak());
 	}
 }
 
