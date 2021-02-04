@@ -7,6 +7,7 @@ import model.Rhino;
 import model.Whale;
 import model.Wolf;
 import model.Duck;
+import model.Ferret;
 import model.Mongoose;
 import model.Frog;
 import model.Flamingo;
@@ -14,6 +15,7 @@ import model.Fox;
 import model.Owl;
 import model.Chinchilla;
 import model.Horse;
+import model.Koala;
 import model.Lion;
 import model.Meerkat;
 import model.Pangolin;
@@ -23,6 +25,7 @@ import model.Platypus;
 import model.Hamster;
 import model.Turkey;
 import model.Vulture;
+import model.Sheep;
 
 public class AnimalNoise {
 
@@ -91,6 +94,9 @@ public class AnimalNoise {
 		Hamster harry = new Hamster();
 		System.out.println(harry.makeNoise());
 		
+		Ferret tyler = new Ferret();
+		System.out.println(tyler.makeNoise());
+		
 		Turkey tom = new Turkey();
 		System.out.println(tom.speak());
 		
@@ -106,6 +112,12 @@ public class AnimalNoise {
 		Vulture spot = new Vulture();
 		System.out.println(spot.speak());
 		
+		Koala Cletus = new Koala();
+		System.out.println(Cletus.speak());
+		
+		Sheep shawn = new Sheep();
+		System.out.println(shawn.speak());
+
 	}
 }
 
