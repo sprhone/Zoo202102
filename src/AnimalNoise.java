@@ -24,6 +24,7 @@ import model.Monkey;
 import model.Platypus;
 import model.Hamster;
 import model.Turkey;
+import model.Turtle;
 import model.Vulture;
 import model.Sheep;
 
@@ -117,6 +118,9 @@ public class AnimalNoise {
 		
 		Sheep shawn = new Sheep();
 		System.out.println(shawn.speak());
+		
+		Turtle turt = new Turtle();
+		System.out.println(turt.speak());
 
 	}
 }
