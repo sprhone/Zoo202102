@@ -19,7 +19,7 @@ public class Fish {
 	}
 	
 	public String speak() {
-		return "glug glug glug"; //Fish Sounds
+		return "glug glug glug"; //Fish Sounds!
 	}
 	
 	public void setName(String name) {
