@@ -123,8 +123,8 @@ public class AnimalNoise {
 		Turtle turt = new Turtle();
 		System.out.println(turt.speak());
 		
-		Fish Tyler = new Fish();
-		System.out.println(Tyler.speak());
+		Fish TylerM = new Fish();
+		System.out.println(TylerM.speak());
 		
 
 	}
