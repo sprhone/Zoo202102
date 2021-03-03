@@ -28,6 +28,7 @@ import model.Turtle;
 import model.Vulture;
 import model.Sheep;
 import model.Fish;
+import model.Elephant;
 
 public class AnimalNoise {
 
@@ -124,9 +125,10 @@ public class AnimalNoise {
 		System.out.println(turt.speak());
 		
 		Fish TylerMa = new Fish();
-		System.out.println(TylerM.speak());
+		System.out.println(TylerMa.speak());
 		
-
+		Elephant bob = new Elephant();
+		System.out.println(bob.speak());
 	}
 }
 
