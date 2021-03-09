@@ -5,13 +5,17 @@ import model.Dog;
 import model.Pig;
 import model.Rhino;
 import model.Whale;
+import model.Wolf;
 import model.Duck;
+import model.Ferret;
 import model.Mongoose;
 import model.Frog;
 import model.Flamingo;
+import model.Fox;
 import model.Owl;
 import model.Chinchilla;
 import model.Horse;
+import model.Koala;
 import model.Lion;
 import model.Meerkat;
 import model.Pangolin;
@@ -20,6 +24,11 @@ import model.Monkey;
 import model.Platypus;
 import model.Hamster;
 import model.Turkey;
+import model.Turtle;
+import model.Vulture;
+import model.Sheep;
+import model.Fish;
+import model.Elephant;
 
 public class AnimalNoise {
 
@@ -88,11 +97,38 @@ public class AnimalNoise {
 		Hamster harry = new Hamster();
 		System.out.println(harry.makeNoise());
 		
+		Ferret tyler = new Ferret();
+		System.out.println(tyler.makeNoise());
+		
 		Turkey tom = new Turkey();
 		System.out.println(tom.speak());
 		
 		Meerkat timon = new Meerkat();
 		System.out.println(timon.speak());
+		
+		Fox todd = new Fox();
+		System.out.println(todd.speak());
+		
+		Wolf scruffy = new Wolf();
+		System.out.println(scruffy.speak());
+		
+		Vulture spot = new Vulture();
+		System.out.println(spot.speak());
+		
+		Koala Cletus = new Koala();
+		System.out.println(Cletus.speak());
+		
+		Sheep shawn = new Sheep();
+		System.out.println(shawn.speak());
+		
+		Turtle turt = new Turtle();
+		System.out.println(turt.speak());
+		
+		Fish TylerMa = new Fish();
+		System.out.println(TylerMa.speak());
+		
+		Elephant bob = new Elephant();
+		System.out.println(bob.speak());
 	}
 }
 
